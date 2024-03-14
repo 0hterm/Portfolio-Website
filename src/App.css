@@ -1,0 +1,62 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.intro-container {
+  display: flex;
+  margin: 2vh;
+  border: solid 1px black;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 1vw;
+}
+
+.left-intro-container {
+  margin: 10px;
+}
+
+.intro-desc {
+  font-size: 15pt;
+  margin: 10px;
+  color: #856799;
+}
+
+#name {
+  margin: 1vh;
+  font-size: 25pt;
+  padding-bottom: 2vh;
+  margin-top: -3vh;
+  color: #a85add;
+}
+
+#intro-image {
+  border: solid 1px purple;
+  box-shadow: -0.2vw 0.4vh 10px 1px purple;
+}
+
+#nav-bar {
+  display: flex;
+  justify-content: space-evenly;
+  > li {
+    margin-right: 1vw;
+    list-style: none;
+  }
+}
