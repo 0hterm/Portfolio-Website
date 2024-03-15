@@ -7,7 +7,7 @@ import { useState } from 'react';
 
 function App() {
 
-  const [page, setPage] = useState(null);
+  const [page, setPage] = useState(<p></p>);
 
   return (
     <div className="App">
