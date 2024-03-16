@@ -23,7 +23,7 @@
 .intro-container {
   display: flex;
   margin: 2vh;
-  box-shadow: -5px 10px 15px 1px rgba(223, 139, 235, 0.137);
+  box-shadow: -3vw 5vh 30px -45px rgba(137, 219, 137, 0.308);
   justify-content: space-evenly;
   align-items: center;
   padding: 1vh;
@@ -91,7 +91,7 @@
 }
 
 .card {
-  box-shadow: -25px 25px 15px -25px rgb(137, 219, 137);
+  box-shadow: -25px 25px 15px -25px rgba(137, 219, 137, 0.521);
   border-radius: 15px;
   padding: 2vh;
   margin: 15px;
