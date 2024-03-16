@@ -3,11 +3,11 @@ const Contact = () => {
         <div className="contact-container">
             <div className="contact-i">
                 <img className="contact-img" src="https://static-00.iconduck.com/assets.00/linkedin-icon-512x512-dhkaf9ri.png" alt="LinkedIn:" />
-                <a href="https://www.linkedin.com/in/hunter-termo-006241143/">LinkedIn</a>
+                <a href="https://www.linkedin.com/in/hunter-termo-006241143/" target="_blank">LinkedIn</a>
             </div>
             <div className="contact-i">
                 <img className="contact-img" src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub:" />
-                <a href="https://github.com/0hterm">GitHub</a>
+                <a href="https://github.com/0hterm" target="_blank">GitHub</a>
             </div>
             <div className="contact-i">
                 <img className="contact-img" src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/phone-icon.png" alt="Phone #:" />

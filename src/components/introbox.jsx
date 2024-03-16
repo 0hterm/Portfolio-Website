@@ -1,11 +1,9 @@
-import portrait from '../assets/eyeswideshut.jpg';
-
 const IntroBox = () => {
     return(
         <div className="intro-container">
             <div className='left-intro-container'>
-                <h1 id="name">Hunter Termo</h1>
-                <img src={portrait} id="intro-image" alt="Self Portrait" width="220px"/>
+                <h1 id="name">0hterm</h1>
+                <img src="https://i.imgur.com/pXueCrm.gif" id="intro-image" alt="Self Portrait" width="220px"/>
             </div>
             <div className="intro-desc">
                 <p>Thank you for visiting my website! This site holds information about me and 
