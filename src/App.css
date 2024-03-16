@@ -49,7 +49,7 @@
   font-size: 25pt;
   padding-bottom: 2vh;
   margin-top: -1vh;
-  color: #a85add;
+  color: rgb(137, 219, 137);
 }
 
 #intro-image {
@@ -63,6 +63,9 @@
   > li {
     margin-right: 1vw;
     list-style: none;
+    > button {
+    color : #8fe675;
+    }
   }
 }
 
@@ -88,12 +91,13 @@
 }
 
 .card {
-  box-shadow: -5px 10px 15px 1px rgba(223, 139, 235, 0.137);
+  box-shadow: -25px 25px 15px -25px rgb(137, 219, 137);
+  border-radius: 15px;
   padding: 2vh;
   margin: 15px;
-  color: #856799;
+  color: rgb(60, 218, 60);
   > h2 {
-    color: #a85add;
+    color: rgb(137, 219, 137);
   }
   > div {
     > a {
@@ -143,3 +147,4 @@
   justify-content: baseline;
   padding: 10px;
 }
+
