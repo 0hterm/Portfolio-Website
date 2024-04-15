@@ -3,7 +3,7 @@ const ProjectCard = (props) => {
     const { title, description, img, gitLink, appLink } = props;
 
     return(
-        <div className="card">
+        <div className={"card " + props.id}>
             <h2>{title}</h2>
                 <img className="project-img" src={img} width="275px" alt="Project Image" />
                 <p className="project-desc">{description}</p>
