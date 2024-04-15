@@ -166,4 +166,12 @@
   #intro-image {
     width: 100px;
   }
+
+  .content-container {
+    font-size: 8pt;
+  }
+
+  .card-text {
+    font-size: 8pt;
+  }
 }
