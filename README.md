@@ -1,4 +1,4 @@
-# React + Vite
+# 0hterm's Personal Website
 
 <img src="https://i.imgur.com/GBS8IXw.png" width="750px" />
 
