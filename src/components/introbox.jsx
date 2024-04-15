@@ -3,7 +3,7 @@ const IntroBox = () => {
         <div className="intro-container">
             <div className='left-intro-container'>
                 <h1 id="name">0hterm</h1>
-                <img src="https://i.imgur.com/pXueCrm.gif" id="intro-image" alt="Self Portrait" width="220px"/>
+                <img src="https://i.imgur.com/pXueCrm.gif" id="intro-image" alt="Self Portrait" />
             </div>
             <div className="intro-desc">
                 <p>Thank you for visiting my website! This site holds information about me and 

@@ -55,6 +55,7 @@
 #intro-image {
   border: solid 1px rgba(130, 221, 130, 0.774);
   box-shadow: -0.2vw 0.4vh 10px 1px rgba(60, 218, 60, 0.575);
+  width: 220px;
 }
 
 #nav-bar {
@@ -147,4 +148,22 @@
   align-items: center;
   justify-content: baseline;
   padding: 10px;
+}
+
+@media (max-width: 767px) {
+  body {
+    font-size: 10pt;
+  }
+  
+  #name {
+    font-size: 12pt;
+  }
+
+  .intro-desc {
+    font-size: 10pt;
+  }
+
+  #intro-image {
+    width: 100px;
+  }
 }
