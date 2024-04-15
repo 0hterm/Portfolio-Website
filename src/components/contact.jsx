@@ -10,10 +10,6 @@ const Contact = () => {
                 <a href="https://github.com/0hterm" target="_blank">GitHub</a>
             </div>
             <div className="contact-i">
-                <img className="contact-img" src="https://uxwing.com/wp-content/themes/uxwing/download/communication-chat-call/phone-icon.png" alt="Phone #:" />
-                <a>(954)224-8781</a>
-            </div>
-            <div className="contact-i">
                 <img className="contact-img" src="https://static.vecteezy.com/system/resources/previews/021/454/514/non_2x/email-confirmation-app-icon-email-icon-free-png.png" alt="Email:" />
                 <a>huntertermo@yahoo.com</a>
             </div>
