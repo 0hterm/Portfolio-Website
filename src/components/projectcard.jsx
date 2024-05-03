@@ -8,7 +8,10 @@ const ProjectCard = (props) => {
                 <img className="project-img" src={img} width="275px" alt="Project Image" />
                 <p className="project-desc">{description}</p>
                 <div className="buttons">
-                    <a href={gitLink} target="_blank"><button>GitHub Repository</button></a>
+                    { gitLink ?
+                        <a href={gitLink} target="_blank"><button>GitHub Repository</button></a>
+                        : null
+                    }
                     { appLink ?
                         <a href={appLink} target="_blank"><button>Use the App!</button></a>
                         : null
